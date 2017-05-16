@@ -6,6 +6,8 @@ iOS小功能点实现Demo分享
 3.[Quartz2D-手势解锁](/Quartz2D-手势解锁)  
 4.[hitTest练习1](/hitTest练习1)  
 5.[hitTest练习2](/hitTest练习2)  
+6.[03-block开发使用场景（代理传值）](/03-block开发使用场景（代理传值）)  
+
 
 
 

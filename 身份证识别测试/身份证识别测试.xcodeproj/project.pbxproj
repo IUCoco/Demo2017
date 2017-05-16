@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF28E8481EC9C00E00F1B828 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF28E8471EC9C00E00F1B828 /* main.m */; };
+		CF28E84B1EC9C00E00F1B828 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF28E84A1EC9C00E00F1B828 /* AppDelegate.m */; };
+		CF28E8531EC9C00E00F1B828 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF28E8521EC9C00E00F1B828 /* Assets.xcassets */; };
+		CF28E8561EC9C00E00F1B828 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF28E8541EC9C00E00F1B828 /* LaunchScreen.storyboard */; };
+		CF28E8611EC9C00E00F1B828 /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF28E8601EC9C00E00F1B828 /* _______Tests.m */; };
+		CF28E8701EC9C17600F1B828 /* IDAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF28E86E1EC9C17600F1B828 /* IDAuthViewController.m */; };
+		CF28E8711EC9C17600F1B828 /* IDAuthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF28E86F1EC9C17600F1B828 /* IDAuthViewController.xib */; };
+		CF28E8771EC9C39800F1B828 /* AVCaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF28E8761EC9C39800F1B828 /* AVCaptureViewController.m */; };
+		CF28E87A1EC9C3C900F1B828 /* LHSIDCardScaningView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF28E8791EC9C3C900F1B828 /* LHSIDCardScaningView.m */; };
+		CF28E87F1EC9C3EB00F1B828 /* UIAlertController+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = CF28E87C1EC9C3EB00F1B828 /* UIAlertController+Extend.m */; };
+		CF28E8801EC9C3EB00F1B828 /* UIImage+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = CF28E87E1EC9C3EB00F1B828 /* UIImage+Extend.m */; };
+		CF28E8831EC9C41400F1B828 /* IDInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CF28E8821EC9C41400F1B828 /* IDInfo.m */; };
+		CF28E8861EC9C43000F1B828 /* RectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CF28E8851EC9C43000F1B828 /* RectManager.m */; };
+		CF28E88A1EC9C44800F1B828 /* IDInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF28E8881EC9C44800F1B828 /* IDInfoViewController.m */; };
+		CF28E88B1EC9C44800F1B828 /* IDInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF28E8891EC9C44800F1B828 /* IDInfoViewController.xib */; };
+		CF28E8921EC9C47C00F1B828 /* zocr0.lib in Resources */ = {isa = PBXBuildFile; fileRef = CF28E88F1EC9C47C00F1B828 /* zocr0.lib */; };
+		CF28E8931EC9C47C00F1B828 /* libexidcardios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF28E8911EC9C47C00F1B828 /* libexidcardios.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF28E85D1EC9C00E00F1B828 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF28E83B1EC9C00E00F1B828 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF28E8421EC9C00E00F1B828;
+			remoteInfo = "身份证识别测试";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF28E8431EC9C00E00F1B828 /* 身份证识别测试.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "身份证识别测试.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF28E8471EC9C00E00F1B828 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF28E8491EC9C00E00F1B828 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF28E84A1EC9C00E00F1B828 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF28E8521EC9C00E00F1B828 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF28E8551EC9C00E00F1B828 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF28E8571EC9C00E00F1B828 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF28E85C1EC9C00E00F1B828 /* 身份证识别测试Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "身份证识别测试Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF28E8601EC9C00E00F1B828 /* _______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______Tests.m"; sourceTree = "<group>"; };
+		CF28E8621EC9C00E00F1B828 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF28E86D1EC9C17600F1B828 /* IDAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDAuthViewController.h; sourceTree = "<group>"; };
+		CF28E86E1EC9C17600F1B828 /* IDAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDAuthViewController.m; sourceTree = "<group>"; };
+		CF28E86F1EC9C17600F1B828 /* IDAuthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IDAuthViewController.xib; sourceTree = "<group>"; };
+		CF28E8751EC9C39800F1B828 /* AVCaptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCaptureViewController.h; sourceTree = "<group>"; };
+		CF28E8761EC9C39800F1B828 /* AVCaptureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCaptureViewController.m; sourceTree = "<group>"; };
+		CF28E8781EC9C3C900F1B828 /* LHSIDCardScaningView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHSIDCardScaningView.h; sourceTree = "<group>"; };
+		CF28E8791EC9C3C900F1B828 /* LHSIDCardScaningView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHSIDCardScaningView.m; sourceTree = "<group>"; };
+		CF28E87B1EC9C3EB00F1B828 /* UIAlertController+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Extend.h"; sourceTree = "<group>"; };
+		CF28E87C1EC9C3EB00F1B828 /* UIAlertController+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Extend.m"; sourceTree = "<group>"; };
+		CF28E87D1EC9C3EB00F1B828 /* UIImage+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extend.h"; sourceTree = "<group>"; };
+		CF28E87E1EC9C3EB00F1B828 /* UIImage+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extend.m"; sourceTree = "<group>"; };
+		CF28E8811EC9C41400F1B828 /* IDInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDInfo.h; sourceTree = "<group>"; };
+		CF28E8821EC9C41400F1B828 /* IDInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDInfo.m; sourceTree = "<group>"; };
+		CF28E8841EC9C43000F1B828 /* RectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectManager.h; sourceTree = "<group>"; };
+		CF28E8851EC9C43000F1B828 /* RectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectManager.m; sourceTree = "<group>"; };
+		CF28E8871EC9C44800F1B828 /* IDInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDInfoViewController.h; sourceTree = "<group>"; };
+		CF28E8881EC9C44800F1B828 /* IDInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDInfoViewController.m; sourceTree = "<group>"; };
+		CF28E8891EC9C44800F1B828 /* IDInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IDInfoViewController.xib; sourceTree = "<group>"; };
+		CF28E88D1EC9C47C00F1B828 /* commondef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = commondef.h; sourceTree = "<group>"; };
+		CF28E88F1EC9C47C00F1B828 /* zocr0.lib */ = {isa = PBXFileReference; lastKnownFileType = file; path = zocr0.lib; sourceTree = "<group>"; };
+		CF28E8901EC9C47C00F1B828 /* excards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = excards.h; sourceTree = "<group>"; };
+		CF28E8911EC9C47C00F1B828 /* libexidcardios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libexidcardios.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF28E8401EC9C00E00F1B828 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF28E8931EC9C47C00F1B828 /* libexidcardios.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF28E8591EC9C00E00F1B828 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF28E83A1EC9C00E00F1B828 = {
+			isa = PBXGroup;
+			children = (
+				CF28E8451EC9C00E00F1B828 /* 身份证识别测试 */,
+				CF28E85F1EC9C00E00F1B828 /* 身份证识别测试Tests */,
+				CF28E8441EC9C00E00F1B828 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF28E8441EC9C00E00F1B828 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF28E8431EC9C00E00F1B828 /* 身份证识别测试.app */,
+				CF28E85C1EC9C00E00F1B828 /* 身份证识别测试Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF28E8451EC9C00E00F1B828 /* 身份证识别测试 */ = {
+			isa = PBXGroup;
+			children = (
+				CF28E8491EC9C00E00F1B828 /* AppDelegate.h */,
+				CF28E84A1EC9C00E00F1B828 /* AppDelegate.m */,
+				CF28E8741EC9C18B00F1B828 /* View */,
+				CF28E8731EC9C18300F1B828 /* Tool */,
+				CF28E8721EC9C17D00F1B828 /* Model */,
+				CF28E86C1EC9C17600F1B828 /* Controller */,
+				CF28E86B1EC9C16B00F1B828 /* Category */,
+				CF28E8521EC9C00E00F1B828 /* Assets.xcassets */,
+				CF28E8541EC9C00E00F1B828 /* LaunchScreen.storyboard */,
+				CF28E8571EC9C00E00F1B828 /* Info.plist */,
+				CF28E8461EC9C00E00F1B828 /* Supporting Files */,
+			);
+			path = "身份证识别测试";
+			sourceTree = "<group>";
+		};
+		CF28E8461EC9C00E00F1B828 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF28E88C1EC9C47C00F1B828 /* libexidcard */,
+				CF28E8471EC9C00E00F1B828 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF28E85F1EC9C00E00F1B828 /* 身份证识别测试Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CF28E8601EC9C00E00F1B828 /* _______Tests.m */,
+				CF28E8621EC9C00E00F1B828 /* Info.plist */,
+			);
+			path = "身份证识别测试Tests";
+			sourceTree = "<group>";
+		};
+		CF28E86B1EC9C16B00F1B828 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				CF28E87B1EC9C3EB00F1B828 /* UIAlertController+Extend.h */,
+				CF28E87C1EC9C3EB00F1B828 /* UIAlertController+Extend.m */,
+				CF28E87D1EC9C3EB00F1B828 /* UIImage+Extend.h */,
+				CF28E87E1EC9C3EB00F1B828 /* UIImage+Extend.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		CF28E86C1EC9C17600F1B828 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CF28E8751EC9C39800F1B828 /* AVCaptureViewController.h */,
+				CF28E8761EC9C39800F1B828 /* AVCaptureViewController.m */,
+				CF28E86D1EC9C17600F1B828 /* IDAuthViewController.h */,
+				CF28E86E1EC9C17600F1B828 /* IDAuthViewController.m */,
+				CF28E86F1EC9C17600F1B828 /* IDAuthViewController.xib */,
+				CF28E8871EC9C44800F1B828 /* IDInfoViewController.h */,
+				CF28E8881EC9C44800F1B828 /* IDInfoViewController.m */,
+				CF28E8891EC9C44800F1B828 /* IDInfoViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CF28E8721EC9C17D00F1B828 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF28E8811EC9C41400F1B828 /* IDInfo.h */,
+				CF28E8821EC9C41400F1B828 /* IDInfo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CF28E8731EC9C18300F1B828 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				CF28E8841EC9C43000F1B828 /* RectManager.h */,
+				CF28E8851EC9C43000F1B828 /* RectManager.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		CF28E8741EC9C18B00F1B828 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CF28E8781EC9C3C900F1B828 /* LHSIDCardScaningView.h */,
+				CF28E8791EC9C3C900F1B828 /* LHSIDCardScaningView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CF28E88C1EC9C47C00F1B828 /* libexidcard */ = {
+			isa = PBXGroup;
+			children = (
+				CF28E88D1EC9C47C00F1B828 /* commondef.h */,
+				CF28E88E1EC9C47C00F1B828 /* dicts */,
+				CF28E8901EC9C47C00F1B828 /* excards.h */,
+				CF28E8911EC9C47C00F1B828 /* libexidcardios.a */,
+			);
+			path = libexidcard;
+			sourceTree = "<group>";
+		};
+		CF28E88E1EC9C47C00F1B828 /* dicts */ = {
+			isa = PBXGroup;
+			children = (
+				CF28E88F1EC9C47C00F1B828 /* zocr0.lib */,
+			);
+			path = dicts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF28E8421EC9C00E00F1B828 /* 身份证识别测试 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF28E8651EC9C00E00F1B828 /* Build configuration list for PBXNativeTarget "身份证识别测试" */;
+			buildPhases = (
+				CF28E83F1EC9C00E00F1B828 /* Sources */,
+				CF28E8401EC9C00E00F1B828 /* Frameworks */,
+				CF28E8411EC9C00E00F1B828 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "身份证识别测试";
+			productName = "身份证识别测试";
+			productReference = CF28E8431EC9C00E00F1B828 /* 身份证识别测试.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF28E85B1EC9C00E00F1B828 /* 身份证识别测试Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF28E8681EC9C00E00F1B828 /* Build configuration list for PBXNativeTarget "身份证识别测试Tests" */;
+			buildPhases = (
+				CF28E8581EC9C00E00F1B828 /* Sources */,
+				CF28E8591EC9C00E00F1B828 /* Frameworks */,
+				CF28E85A1EC9C00E00F1B828 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF28E85E1EC9C00E00F1B828 /* PBXTargetDependency */,
+			);
+			name = "身份证识别测试Tests";
+			productName = "身份证识别测试Tests";
+			productReference = CF28E85C1EC9C00E00F1B828 /* 身份证识别测试Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF28E83B1EC9C00E00F1B828 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = hdu.edu.cn;
+				TargetAttributes = {
+					CF28E8421EC9C00E00F1B828 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = X98AC2E273;
+						ProvisioningStyle = Automatic;
+					};
+					CF28E85B1EC9C00E00F1B828 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF28E8421EC9C00E00F1B828;
+					};
+				};
+			};
+			buildConfigurationList = CF28E83E1EC9C00E00F1B828 /* Build configuration list for PBXProject "身份证识别测试" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF28E83A1EC9C00E00F1B828;
+			productRefGroup = CF28E8441EC9C00E00F1B828 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF28E8421EC9C00E00F1B828 /* 身份证识别测试 */,
+				CF28E85B1EC9C00E00F1B828 /* 身份证识别测试Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF28E8411EC9C00E00F1B828 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF28E88B1EC9C44800F1B828 /* IDInfoViewController.xib in Resources */,
+				CF28E8561EC9C00E00F1B828 /* LaunchScreen.storyboard in Resources */,
+				CF28E8531EC9C00E00F1B828 /* Assets.xcassets in Resources */,
+				CF28E8921EC9C47C00F1B828 /* zocr0.lib in Resources */,
+				CF28E8711EC9C17600F1B828 /* IDAuthViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF28E85A1EC9C00E00F1B828 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF28E83F1EC9C00E00F1B828 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF28E8861EC9C43000F1B828 /* RectManager.m in Sources */,
+				CF28E8771EC9C39800F1B828 /* AVCaptureViewController.m in Sources */,
+				CF28E84B1EC9C00E00F1B828 /* AppDelegate.m in Sources */,
+				CF28E87A1EC9C3C900F1B828 /* LHSIDCardScaningView.m in Sources */,
+				CF28E88A1EC9C44800F1B828 /* IDInfoViewController.m in Sources */,
+				CF28E8481EC9C00E00F1B828 /* main.m in Sources */,
+				CF28E8831EC9C41400F1B828 /* IDInfo.m in Sources */,
+				CF28E87F1EC9C3EB00F1B828 /* UIAlertController+Extend.m in Sources */,
+				CF28E8701EC9C17600F1B828 /* IDAuthViewController.m in Sources */,
+				CF28E8801EC9C3EB00F1B828 /* UIImage+Extend.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF28E8581EC9C00E00F1B828 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF28E8611EC9C00E00F1B828 /* _______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF28E85E1EC9C00E00F1B828 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF28E8421EC9C00E00F1B828 /* 身份证识别测试 */;
+			targetProxy = CF28E85D1EC9C00E00F1B828 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF28E8541EC9C00E00F1B828 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF28E8551EC9C00E00F1B828 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF28E8631EC9C00E00F1B828 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF28E8641EC9C00E00F1B828 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF28E8661EC9C00E00F1B828 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X98AC2E273;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "身份证识别测试/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/身份证识别测试/libexidcard",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.hdu.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF28E8671EC9C00E00F1B828 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X98AC2E273;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "身份证识别测试/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/身份证识别测试/libexidcard",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.hdu.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF28E8691EC9C00E00F1B828 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "身份证识别测试Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.hdu.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/身份证识别测试.app/身份证识别测试";
+			};
+			name = Debug;
+		};
+		CF28E86A1EC9C00E00F1B828 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "身份证识别测试Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.hdu.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/身份证识别测试.app/身份证识别测试";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF28E83E1EC9C00E00F1B828 /* Build configuration list for PBXProject "身份证识别测试" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF28E8631EC9C00E00F1B828 /* Debug */,
+				CF28E8641EC9C00E00F1B828 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF28E8651EC9C00E00F1B828 /* Build configuration list for PBXNativeTarget "身份证识别测试" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF28E8661EC9C00E00F1B828 /* Debug */,
+				CF28E8671EC9C00E00F1B828 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF28E8681EC9C00E00F1B828 /* Build configuration list for PBXNativeTarget "身份证识别测试Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF28E8691EC9C00E00F1B828 /* Debug */,
+				CF28E86A1EC9C00E00F1B828 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF28E83B1EC9C00E00F1B828 /* Project object */;
+}

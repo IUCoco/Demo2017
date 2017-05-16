@@ -7,6 +7,8 @@ iOS小功能点实现Demo分享
 4.[hitTest练习1](/hitTest练习1)  
 5.[hitTest练习2](/hitTest练习2)  
 6.[03-block开发使用场景（代理传值）](/03-block开发使用场景（代理传值）)  
+7.[04-block开发使用场景（Block传值）](/04-block开发使用场景（Block传值）)  
+
 
 
 
